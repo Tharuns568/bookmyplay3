@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+body {
+  background-image: linear-gradient(rgb(52, 230, 212), rgb(167, 241, 234));
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+#name,
+#email,
+#phone {
+  width: 220px;
+  padding: 10px;
+  margin: 8px;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 4px;
+}
+
+#name,
+#email,
+#phone,
+#message:focus {
+  outline: none;
+}
+
+#message {
+  width: 220px;
+  padding: 11px;
+  border: 1px solid rgb(207, 205, 205);
+  border-radius: 4px;
+  margin: 8px;
+}
+
+.message {
+  margin-left: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  border: 1px solid;
+  padding: 3%;
+  background-color: rgb(238, 238, 238);
+  border-style: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 3px rgba(162, 162, 162, 0.785);
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#submitBtn {
+  width: 243px;
+  margin: 8px;
+  padding: 8px;
+  background-color: rgb(27, 27, 118);
+  color: white;
+  border-style: none;
+  border-radius: 3px;
+}
+
+#submitBtn:hover {
+  background-color: rgb(41, 41, 161);
+  transition: 0.3s;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.home-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 5%;
+  }
+}
